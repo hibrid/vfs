@@ -23,6 +23,11 @@ type File struct {
 // this type allow for injecting a mock fileOpener function
 type fileOpener func(c Client, p string, f int) (ReadWriteSeekCloser, error)
 
+// SetOpener sets the fileOpener function for the File and allows for injection a mock fileOpener for testing
+func (f *File) SetOpener(opener fileOpener) {
+	f.opener = opener
+}
+
 // Info Functions
 
 // LastModified returns the LastModified property of sftp file.

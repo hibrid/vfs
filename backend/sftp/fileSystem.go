@@ -14,6 +14,7 @@ import (
 
 	"github.com/hibrid/vfs/v6"
 	"github.com/hibrid/vfs/v6/backend"
+	"github.com/hibrid/vfs/v6/backend/sftp/mocks"
 	"github.com/hibrid/vfs/v6/utils"
 )
 
@@ -165,10 +166,13 @@ func (fs *FileSystem) WithOptions(opts vfs.Options) *FileSystem {
 
 // WithClient passes in an sftp client and returns the filesystem (chainable)
 func (fs *FileSystem) WithClient(client interface{}) *FileSystem {
-	switch client.(type) {
-	case Client, *ssh.Client:
+	switch v := client.(type) {
+
+	case Client, *ssh.Client, *mocks.Client:
 		fs.sftpclient = client.(Client)
 		fs.options = nil
+	default:
+		fmt.Printf("I don't know about type %T!\n", v)
 	}
 	return fs
 }

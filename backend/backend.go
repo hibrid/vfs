@@ -4,7 +4,7 @@ import (
 	"sort"
 	"sync"
 
-	"github.com/c2fo/vfs/v6"
+	"github.com/hibrid/vfs/v6"
 )
 
 var mmu sync.RWMutex

@@ -13,8 +13,8 @@ import (
 	"golang.org/x/crypto/ssh"
 	"golang.org/x/crypto/ssh/knownhosts"
 
-	"github.com/c2fo/vfs/v6"
-	"github.com/c2fo/vfs/v6/utils"
+	"github.com/hibrid/vfs/v6"
+	"github.com/hibrid/vfs/v6/utils"
 )
 
 const systemWideKnownHosts = "/etc/ssh/ssh_known_hosts"

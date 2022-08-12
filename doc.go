@@ -38,10 +38,10 @@ What we needed/wanted was the following(and more):
 Install
 
 Pre 1.17:
-  go get -u github.com/c2fo/vfs/v6
+  go get -u github.com/hibrid/vfs/v6
 
 Post 1.17:
-  go install -u github.com/c2fo/vfs/v6
+  go install -u github.com/hibrid/vfs/v6
 
 
 Upgrading

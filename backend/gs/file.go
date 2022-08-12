@@ -13,11 +13,11 @@ import (
 	"cloud.google.com/go/storage"
 	"google.golang.org/api/iterator"
 
-	"github.com/c2fo/vfs/v6"
-	"github.com/c2fo/vfs/v6/backend"
-	"github.com/c2fo/vfs/v6/options"
-	"github.com/c2fo/vfs/v6/options/delete"
-	"github.com/c2fo/vfs/v6/utils"
+	"github.com/hibrid/vfs/v6"
+	"github.com/hibrid/vfs/v6/backend"
+	"github.com/hibrid/vfs/v6/options"
+	"github.com/hibrid/vfs/v6/options/delete"
+	"github.com/hibrid/vfs/v6/utils"
 )
 
 const (

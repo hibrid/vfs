@@ -12,9 +12,9 @@ import (
 
 	"github.com/stretchr/testify/suite"
 
-	"github.com/c2fo/vfs/v6"
-	"github.com/c2fo/vfs/v6/backend"
-	_os "github.com/c2fo/vfs/v6/backend/os"
+	"github.com/hibrid/vfs/v6"
+	"github.com/hibrid/vfs/v6/backend"
+	_os "github.com/hibrid/vfs/v6/backend/os"
 )
 
 /**********************************

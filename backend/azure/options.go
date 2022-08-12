@@ -3,7 +3,7 @@ package azure
 import (
 	"os"
 
-	"github.com/c2fo/vfs/v6"
+	"github.com/hibrid/vfs/v6"
 
 	"github.com/Azure/azure-storage-blob-go/azblob"
 )

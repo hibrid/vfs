@@ -11,9 +11,9 @@ import (
 	"github.com/stretchr/testify/mock"
 	"github.com/stretchr/testify/suite"
 
-	_os "github.com/c2fo/vfs/v6/backend/os"
-	"github.com/c2fo/vfs/v6/mocks"
-	"github.com/c2fo/vfs/v6/utils"
+	_os "github.com/hibrid/vfs/v6/backend/os"
+	"github.com/hibrid/vfs/v6/mocks"
+	"github.com/hibrid/vfs/v6/utils"
 )
 
 /**********************************

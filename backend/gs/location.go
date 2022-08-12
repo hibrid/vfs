@@ -9,9 +9,9 @@ import (
 	"cloud.google.com/go/storage"
 	"google.golang.org/api/iterator"
 
-	"github.com/c2fo/vfs/v6"
-	"github.com/c2fo/vfs/v6/options"
-	"github.com/c2fo/vfs/v6/utils"
+	"github.com/hibrid/vfs/v6"
+	"github.com/hibrid/vfs/v6/options"
+	"github.com/hibrid/vfs/v6/utils"
 )
 
 // Location implements vfs.Location for gs fs.

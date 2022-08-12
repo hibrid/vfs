@@ -1,6 +1,6 @@
 package delete
 
-import "github.com/c2fo/vfs/v6/options"
+import "github.com/hibrid/vfs/v6/options"
 
 const optionNameDeleteAllVersions = "deleteAllVersions"
 
